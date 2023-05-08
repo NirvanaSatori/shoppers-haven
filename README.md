@@ -31,7 +31,7 @@ As a user 👨‍💻, I can:
 * Be redirected to the actual shop that sells the product.
 
 # Set Up
-- [x] Clone the repository using 'https://github.com/SylviaMongina/shoppers-haven' or download and extract the zip file.
+- [x] Clone the repository using 'https://github.com/NirvanaSatori/shoppers-haven' or download and extract the zip file.
 - [x] Open up the cloned folder in your preferred text editor. Open up a terminal within your workspace and navigate into the shoppers haven
 - [x] Within that folder, run `npm install` which will install all dependencies for you then run `npm run server` to run the json-server for your backend.
 - [x] Finally open a new terminal while keeping base URL for your backend running on `http://localhost:3000` then run `npm start` and if prompted click y or yes thereafter you should get the default react-app running on http://localhost:300 :boom:
