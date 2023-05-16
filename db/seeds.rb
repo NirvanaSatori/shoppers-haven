@@ -56,6 +56,7 @@ create_product_entries("LG OLED TV", 947.99, 70.00, "Fast Shipping", "https://i.
 
 
 
+
 create_product_entries("Macbook air", 399.99, 60.00, "Fast Shipping", "https://m.media-amazon.com/images/I/71f5Eu5lJSL._AC_UY218_.jpg", "https://www.amazon.com/s?k=macbook+air&crid=1AFPH667H92JX&sprefix=macbook%2Caps%2C401&ref=nb_sb_ss_ts-doa-p_2_7", "amazon")
 create_product_entries("Macbook air", 220.99, 40.00, "Fast Shipping", "https://s.alicdn.com/@sc04/kf/Hbd73563ca3174f178379c2d068acae0cG.jpg_300x300.jpg", "https://www.alibaba.com/product-detail/Unlocked-Used-Laptop-For-2020-13_1600251017576.html?spm=a2700.galleryofferlist.normal_offer.d_image.c5ca4a6ck7E1o0", "alibaba")
 create_product_entries("Macbook air", 179.99, 50.00, "Fast Shipping", "https://i.ebayimg.com/thumbs/images/g/sbYAAOSwPGlj~ZMF/s-l300.webp", "https://www.ebay.com/sch/i.html?_from=R40&_trksid=p2380057.m570.l1313&_nkw=macbook+air&_sacat=0", "ebay")
