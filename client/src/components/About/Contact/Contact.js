@@ -207,14 +207,14 @@ console.log(formData)
                     </dt>
                     <dd className="flex text-base text-teal-50">
                       <PhoneIcon className="h-6 w-6 flex-shrink-0 text-teal-200" aria-hidden="true" />
-                      <span className="ml-3">+254 712345678</span>
+                      <span className="ml-3">+254 710000000</span>
                     </dd>
                     <dt>
                       <span className="sr-only">Email</span>
                     </dt>
                     <dd className="flex text-base text-teal-50">
                       <EnvelopeIcon className="h-6 w-6 flex-shrink-0 text-teal-200" aria-hidden="true" />
-                      <span className="ml-3">grouptwo@gmail.com</span>
+                      <span className="ml-3">shoppershaven@gmail.com</span>
                     </dd>
                   </dl>
                   <ul role="list" className="mt-8 flex space-x-12">
