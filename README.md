@@ -32,6 +32,7 @@ As a user 👨‍💻, I can:
 * Be able to view listed items.
 * Be able to signup and log in to your account.
 * Be redirected to the actual shop that sells the product.
+* Make general enquiries to support by sending quick email
 
 # Set Up
 - [x] Clone the repository using 'https://github.com/NirvanaSatori/shoppers-haven' or download and extract the zip file.
