@@ -21,6 +21,9 @@ Shoppers haven is a platfrom that allows users to view products from various eco
 ![image](https://user-images.githubusercontent.com/117803357/235507435-5662a68a-5997-4802-9e44-28ed46216271.png)
 # A view of the products
 ![image](https://user-images.githubusercontent.com/117803357/235507020-01c41f3d-126b-47f6-bc02-8c6129ceab16.png)
+# A view of the Contact card
+![image](https://github.com/NirvanaSatori/shoppers-haven/assets/48824156/d638cb9c-a8d1-43a9-ba24-d9668da10b50)
+
 
 
 # Core Deliverables
