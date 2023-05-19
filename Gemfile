@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
-ruby "3.1.2"
+ruby "3.2.2"
 
 gem 'dotenv-rails'
 gem "rails", "~> 7.0.4", ">= 7.0.4.3"
@@ -12,7 +12,7 @@ gem 'actionmailer'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 1.5', '>= 1.5.3'
 # Use the Puma web server [https://github.com/puma/puma]
-gem 'puma', '~> 6.2', '>= 6.2.2'# Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]
+gem 'puma'# Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]
 gem "importmap-rails"
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
 gem "turbo-rails"
