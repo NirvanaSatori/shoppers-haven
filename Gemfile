@@ -9,7 +9,7 @@ gem 'sendgrid-ruby'
 gem 'actionmailer'
 gem 'dotenv', '~> 2.8', '>= 2.8.1'
 
-# gem 'dotenv-rails', groups: [:development, :test]
+gem 'dotenv-rails', groups: [:development, :test]
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 1.5', '>= 1.5.3'
 # Use the Puma web server [https://github.com/puma/puma]
