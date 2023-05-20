@@ -59,7 +59,7 @@ require "action_view/railtie"
 require "action_cable/engine"
 # require "sprockets/railtie"
 # require "rails/test_unit/railtie"
-config.secret_key_base = 'blipblapblup'
+
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
@@ -85,7 +85,7 @@ module ReactRailsApiProjectTemplate
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
-
+    config.secret_key_base = 'blipblapblup'
     # Only loads a smaller set of middleware suitable for API only apps.
     # Middleware like session, flash, cookies can be added back manually.
     # Skip views, helpers and assets when generating a new resource.
