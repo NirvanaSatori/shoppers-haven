@@ -7,7 +7,7 @@ gem 'rails', '~> 7.0', '>= 7.0.4.3'
 gem 'activejob'
 gem 'sendgrid-ruby'
 gem 'actionmailer'
-gem 'dotenv', '~> 2.8', '>= 2.8.1'
+# gem 'dotenv', '~> 2.8', '>= 2.8.1'
 
 gem 'dotenv-rails', groups: [:development, :test]
 # Use postgresql as the database for Active Record
