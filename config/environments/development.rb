@@ -1,5 +1,5 @@
 require "active_support/core_ext/integer/time"
-# require_relative './master.key'
+require_relative './master.key'
 
 
 
