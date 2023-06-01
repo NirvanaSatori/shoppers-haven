@@ -1,5 +1,3 @@
-services:
-
   routes:
   - type: rewrite
     source: /*
