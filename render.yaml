@@ -1,6 +1,7 @@
   services:
     - type: web
       env: static
+      name: shoppershaven-client
       staticPublishPath: client/build
       routes:
         - type: rewrite
