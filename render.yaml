@@ -2,7 +2,7 @@
     - type: web
       env: static
       name: shoppershaven-client
-      staticPublishPath: client/build
+      # staticPublishPath: client/build
       routes:
         - type: rewrite
           source: /*
