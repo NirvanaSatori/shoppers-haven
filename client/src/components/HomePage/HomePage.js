@@ -32,7 +32,7 @@ export default function Home() {
 
   return (
     <>
-      <div className='header-div flex flex-column justify-center items-center py-44'>
+      <div className='relative header-div flex flex-column justify-center items-center py-44'>
         <h1 className='text-8xl z-10 header text-center'>SHOPPERS HAVEN</h1>
         <div className="p-3 rounded-lg w-5/12 bg-white z-10 search-div flex ">
           <label htmlFor="search" className="sr-only">

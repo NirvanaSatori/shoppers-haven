@@ -61,7 +61,7 @@ export default function Footer() {
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
-      <div className="mx-auto max-w-full p-4 sm:pt-24 lg:px-8 lg:pt-32">
+      <div className="max-h-96 mx-auto max-w-full p-4 sm:pt-24 lg:px-8 lg:pt-32">
         <div className="xl:grid-cols-3 xl:gap-8 mx-auto">
           <div className="grid-cols-2 gap-8 xl:col-span-2">
             <div className="flex justify-around align-center">

@@ -23,7 +23,7 @@ export default function Login() {
 
   return (
     <>
-      <div className="flex min-h-full items-center justify-center mt-20">
+      <div className="relative min-h-screen flex min-h-full items-center justify-center mt-20">
         <div className="flex flex-1 login-card shadow  bg-slate-100 flex-col justify-center py-12 px-4 sm:px-6 lg:flex-none lg:px-20 xl:px-24">
           <div className="mx-auto w-full max-w-sm lg:w-96">
             <div>

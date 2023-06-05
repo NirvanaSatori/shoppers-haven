@@ -2,11 +2,12 @@
     background-image: url('../../assets/images/shoppers-photo.jpg');
     background-size: cover;
     color: white;
-    height: 100vh;
+    /* height: 100vh; */
     width: auto;
     position: relative;
     isolation: isolate;
     object-fit: cover;
+    min-height: 100vh;
 }
 
 .header-div::after {
@@ -18,9 +19,13 @@
 }
 
 @media (width <= 800px) {
+    .header-div {
+        min-height: 100vh;
+    }
     .header {
         font-size: 4.3rem;
         margin-bottom: 2rem;
+        /* min-height: 100vh; */
     }
 
     .search-div {
@@ -34,14 +39,23 @@
 
     .right-rectangle {
         width: 30px;
+
+    }
+    .left-rectangle {
+        width: 30px;
+        top: 135vh;
+
     }
 }
 
 @media (width >= 1000px) {
-    .left-rectangle {
+    .header-div {
+        min-height: 100vh;
+    }
+    /* .left-rectangle {
         top: 145vh;
         z-index: 2;
-    }
+    } */
 }
 
 .left-rectangle {
@@ -50,9 +64,10 @@
     background-color: #14B8A6;
     border-radius: 10px;
     position: absolute;
-    bottom: -80vh;
+    bottom: -40vh;
     left: 50px;
     z-index: -1;
+    top: 135vh;
 }
 
 .right-rectangle {
