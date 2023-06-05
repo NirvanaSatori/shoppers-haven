@@ -49,6 +49,7 @@ As a user 👨‍💻, I can:
    * Ruby on rails
    * [Visual Studio ](https://code.visualstudio.com/download)
    * [CSS](http://css.com/)
+   * SendGrid
    
   
 
