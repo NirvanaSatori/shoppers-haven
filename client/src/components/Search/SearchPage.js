@@ -110,7 +110,7 @@ function SearchPage() {
       setProducts(data)
       setTimeout(() => {
         setLoading(false)
-      }, 1500)
+      }, 500)
     })
   }
 
@@ -211,7 +211,7 @@ function SearchPage() {
                 :
                 <input
                   type="text" id="error" className="bg-red-50 pl-10 border border-red-500 text-red-900 placeholder-red-700 text-sm rounded-lg focus:ring-red-500 dark:bg-gray-700
-                   focus:border-red-500 block w-full p-2.5 dark:text-red-500 dark:placeholder-red-500 dark:border-red-500" placeholder="Cannot be empty"
+                   focus:border-red-500 block w-full p-2.5 dark:text-red-500 dark:placeholder-teal-500 dark:border-teal-500" placeholder="Cannot be empty"
                    onChange={(e) => {setSearchQuery(e.target.value);}}
                 />
               }
@@ -454,22 +454,22 @@ function SearchPage() {
                     <ul className=" divide-y divide-gray-200 border-t border-b border-gray-200 p-1">
                         {transformProducts().slice(indexOfFirstShipment , indexOfLastShipment).map((product) => (                          
                               <li key={product.id} className="flex py-6 product-list">
-                                <div className="flex-shrink-0">
+                                <div className="object-contain flex-shrink-0">
                                     <img
                                     src={product.image_url}
                                     alt={product.imageAlt}
-                                    className="h-32 w-32 bg-cover rounded-md object-cover object-center sm:h-32 sm:w-32"
+                                    className="h-48 w-48 bg-cover rounded-md object-contain object-center sm:h-48 sm:w-48"
                                     />
                                 </div>
-                                <div className="ml-4 flex flex-1 flex-col sm:ml-6">
+                                <div className="px-10 ml-4 flex flex-1 flex-col sm:ml-6">
                                     <div>
                                     <div className="flex justify-between">
                                         <h4 className="text">
                                             {product.name}
                                         </h4>
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5">
+                                        {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5">
   <path d="M9.653 16.915l-.005-.003-.019-.01a20.759 20.759 0 01-1.162-.682 22.045 22.045 0 01-2.582-1.9C4.045 12.733 2 10.352 2 7.5a4.5 4.5 0 018-2.828A4.5 4.5 0 0118 7.5c0 2.852-2.044 5.233-3.885 6.82a22.049 22.049 0 01-3.744 2.582l-.019.01-.005.003h-.002a.739.739 0 01-.69.001l-.002-.001z" />
-</svg>
+</svg> */}
                                         <a target='blank' href={product.website_url} className="ml-4 store-link text-white font-medium no-underline px-4 py-2 rounded button shadow">Go to Store</a>
                                         
 
