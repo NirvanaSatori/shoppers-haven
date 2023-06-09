@@ -188,7 +188,7 @@ function SearchPage() {
       
       :
 
-    (<div className='mt-24'>
+    (<div className='min-h-screen mt-24'>
       <div className='flex  justify-around search-bar'>
         <div className="p-2 rounded-lg w-5/12 search-div flex shadow bg-white">
             <label htmlFor="search" className="sr-only">
@@ -445,14 +445,12 @@ function SearchPage() {
       </div>
       <div className="bg-white">
         <div className="ul mx-auto w-9/12 py-3 sm:py-24 sm:px-0 lg:px-0">
-            <h1 className="mt-4 text-center text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl ">Results</h1>
-            <div className="mt-12 w-full">
+            <h1 className="mt-4 text-productscenter text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl ">Results</h1>
+            
+            <div className="mt-12 w-full">        
                 <section aria-labelledby="cart-heading">
-                    <h2 id="cart-heading" className="sr-only">
-                    Items in your shopping cart
-                    </h2>
-                    <ul className=" divide-y divide-gray-200 border-t border-b border-gray-200 p-1">
-                        {transformProducts().slice(indexOfFirstShipment , indexOfLastShipment).map((product) => (                          
+                       { transformProducts().slice(indexOfFirstShipment , indexOfLastShipment).map((product) => (  
+                        <ul className=" divide-y divide-gray-200 border-t border-b border-gray-200 p-1">                        
                               <li key={product.id} className="flex py-6 product-list">
                                 <div className="object-contain flex-shrink-0">
                                     <img
@@ -491,13 +489,12 @@ function SearchPage() {
                                     </div>
                                 </div>
                             </li> 
-                        ))}
-                    </ul>
-                </section>
-            </div>
-            <Paginate productsPerPage={productsPerPage} totalProducts={transformProducts().length} paginate={paginate} />
-
-        </div>
+                            </ul>
+                          ))}
+                </section>     
+            </div>                           
+            <Paginate productsPerPage={productsPerPage} totalProducts={transformProducts().length} paginate={paginate} />                     
+        </div>                  
       </div>
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
