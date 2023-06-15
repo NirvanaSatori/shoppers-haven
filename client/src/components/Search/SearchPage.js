@@ -1,4 +1,5 @@
-import React, { useEffect, useState, useContext, Link } from 'react'
+import React, { useEffect, useState, useContext } from 'react'
+import { Link } from "react-router-dom"
 import { MagnifyingGlassIcon } from '@heroicons/react/20/solid'
 import { Fragment } from 'react'
 import { Menu, Transition, Listbox } from '@headlessui/react'
@@ -169,20 +170,20 @@ function SearchPage() {
   }
 
 
-  if (products.length === 0) {
-    return (
-      <div className="flex flex-col items-center justify-center h-screen">
-        <div className="text-center font-bold text-2xl">You have no orders.</div>
-        <div className="text-center font-bold text-xl">
-          Go to the{" "}
-          <Link to="/" className="text-blue-300">
-            homepage
-          </Link>{" "}
-          to read about us and make an order.
-        </div>
-      </div>
-    );
-  }
+  // if (products.length === 0) {
+  //   return (
+  //     <div className="flex flex-col items-center justify-center h-screen">
+  //       <div className="text-center font-bold text-2xl">No Products Found.</div>
+  //       <div className="text-center font-bold text-xl">
+  //         Go to the{" "}
+  //         <Link to="/" className="text-blue-300">
+  //           homepage
+  //         </Link>{" "}
+  //         to search new product.
+  //       </div>
+  //     </div>
+  //   );
+  // }
 
 
 
@@ -462,7 +463,18 @@ function SearchPage() {
       <div className="bg-white">
         <div className="ul mx-auto w-9/12 py-3 sm:py-24 sm:px-0 lg:px-0">
             <h1 className="mt-4 text-productscenter text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl ">Results</h1>
-            
+            {products.length === 0?
+
+            <div className="flex flex-col items-center justify-center h-screen">
+                   <div className="text-center font-bold text-2xl">No Products Found.</div>
+                   <div className="text-center font-bold text-xl">
+                   Search new product or go to the {" "}
+                     <Link to="/" className="text-teal-500">
+                       homepage
+                     </Link>{" "}
+                   </div>
+                </div>
+              :
             <div className="mt-12 w-full">        
                 <section aria-labelledby="cart-heading">
                        { transformProducts().slice(indexOfFirstShipment , indexOfLastShipment).map((product) => (  
@@ -508,7 +520,7 @@ function SearchPage() {
                             </ul>
                           ))}
                 </section>     
-            </div>                           
+            </div>  }                         
             <Paginate productsPerPage={productsPerPage} totalProducts={transformProducts().length} paginate={paginate} />                     
         </div>                  
       </div>
