@@ -462,7 +462,7 @@ function SearchPage() {
       </div>
       <div className="bg-white">
         <div className="ul mx-auto w-9/12 py-3 sm:py-24 sm:px-0 lg:px-0">
-            <h1 className="mt-4 text-productscenter text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl ">Results</h1>
+            <h1 className="flex justify-center mt-4 text-productscenter text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl ">Results</h1>
             {products.length === 0?
 
             <div className="flex flex-col items-center justify-center h-screen">
