@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useContext } from 'react'
+import React, { useEffect, useState, useContext, Link } from 'react'
 import { MagnifyingGlassIcon } from '@heroicons/react/20/solid'
 import { Fragment } from 'react'
 import { Menu, Transition, Listbox } from '@headlessui/react'
@@ -47,7 +47,6 @@ function SearchPage() {
   const handleShow = () => setShow(true);
 
   const paginate = (pageNumber) => setCurrentPage(pageNumber)
-
 
   useEffect(() => {
     setLoading(true)
@@ -168,6 +167,23 @@ function SearchPage() {
       .then(r => r.json())
       .then(data => setSearches(data))
   }
+
+
+  if (products.length === 0) {
+    return (
+      <div className="flex flex-col items-center justify-center h-screen">
+        <div className="text-center font-bold text-2xl">You have no orders.</div>
+        <div className="text-center font-bold text-xl">
+          Go to the{" "}
+          <Link to="/" className="text-blue-300">
+            homepage
+          </Link>{" "}
+          to read about us and make an order.
+        </div>
+      </div>
+    );
+  }
+
 
 
   return (
