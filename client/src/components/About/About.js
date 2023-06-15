@@ -15,7 +15,7 @@ export default function About() {
           </p>
         </div>
       </div>
-      <div className="mt-10 bg-white pb-12 sm:pb-16">
+      <div className="mt-10 bg-white pb-5 sm:pb-16">
         <div className="relative">
           <div className="absolute inset-0 h-1/2 bg-gray-50" />
           <div className="relative mx-auto max-w-7xl px-6 lg:px-8">
