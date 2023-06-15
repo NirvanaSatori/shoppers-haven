@@ -1,21 +1,33 @@
 .about-image {
     position: relative;
-    top: 150px;
-    border-radius: 20px
+    top: 130px;
+    border-radius: 20px;
+    width: 90dvh;
+    height: 45dvh;
+
 }
 
-.green-rectangle {
-    background-color: #14B8A6;
+/* .about-image {
     width: 90dvh;
     height: 50dvh;
     position: absolute;
     top: 200px;
     border-radius: 10px;
+
+} */
+
+.green-rectangle {
+    background-color: #14B8A6;
+    width: 92dvh;
+    height: 49dvh;
+    position: absolute;
+    top: 190px;
+    border-radius: 10px;
     rotate: 90deg;
     z-index: -1;
 }
 
-@media (width <= 800px) {
+/* @media (width <= 800px) {
     .about-image {
         padding: 40px;
         height: 400px;
@@ -23,5 +35,6 @@
         border-radius: 20px;
         position: relative;
         top: 5vh;
+        
     }
-}
+} */

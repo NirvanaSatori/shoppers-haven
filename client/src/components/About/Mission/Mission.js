@@ -5,11 +5,12 @@ export default function Mission() {
   return (
     <>
     <div className="relative mission-div " >
-      <div className="absolute bottom-0 h-80 w-full xl:inset-0 xl:h-full">
-        <div className="h-full w-full xl:grid xl:grid-cols-2">
+      <div className="absolute px-7 bottom-20 h-80 w-full xl:inset-0 xl:h-full">
+         <div className="h-full w-full xl:grid xl:grid-cols-2">
           <div className="h-full xl:relative xl:col-start-2">
             <div className="green-rectangle"></div>
             <img
+              
               className="opacity-2 xl:absolute xl:inset-0 about-image"
               src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F3832684%2Fpexels-photo-3832684.jpeg%3Fcs%3Dsrgb%26dl%3Dperson-holding-a-compass-3832684.jpg%26fm%3Djpg&f=1&nofb=1&ipt=dbf6ddbb3d580d7f2a93d0daae535bb13491b7376ba4b6d654cd8ef0393aea5c&ipo=images"
               alt="compass"
@@ -20,7 +21,7 @@ export default function Mission() {
             /> */}
           </div>
         </div>
-      </div>
+      </div> 
       <div className="max-w-4xl px-6 lg:max-w-7xl lg:px-8 xl:grid xl:grid-flow-col-dense xl:grid-cols-2 xl:gap-x-8">
         <div className="relative pt-12 pb-64 sm:pt-24 sm:pb-64 xl:col-start-1 xl:pb-24">
           {/* <h1 className="text-base font-bold text-indigo-900">Our Mission</h1> */}
