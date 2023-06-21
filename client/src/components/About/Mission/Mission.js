@@ -1,5 +1,6 @@
 import './Mission.css'
 import Contact from '../Contact/Contact'
+import compass from '../../../assets/images/compass.jpeg'
 
 export default function Mission() {
   return (
@@ -12,7 +13,8 @@ export default function Mission() {
             <img
               
               className="opacity-2 xl:absolute xl:inset-0 about-image"
-              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F3832684%2Fpexels-photo-3832684.jpeg%3Fcs%3Dsrgb%26dl%3Dperson-holding-a-compass-3832684.jpg%26fm%3Djpg&f=1&nofb=1&ipt=dbf6ddbb3d580d7f2a93d0daae535bb13491b7376ba4b6d654cd8ef0393aea5c&ipo=images"
+              // src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F3832684%2Fpexels-photo-3832684.jpeg%3Fcs%3Dsrgb%26dl%3Dperson-holding-a-compass-3832684.jpg%26fm%3Djpg&f=1&nofb=1&ipt=dbf6ddbb3d580d7f2a93d0daae535bb13491b7376ba4b6d654cd8ef0393aea5c&ipo=images"
+             src={compass}
               alt="compass"
             />
             {/* <div
