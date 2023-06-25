@@ -26,7 +26,6 @@ export default function Mission() {
       </div> 
       <div className="max-w-4xl px-6 lg:max-w-7xl lg:px-8 xl:grid xl:grid-flow-col-dense xl:grid-cols-2 xl:gap-x-8">
         <div className="relative pt-12 pb-64 sm:pt-24 sm:pb-64 xl:col-start-1 xl:pb-24">
-          {/* <h1 className="text-base font-bold text-indigo-900">Our Mission</h1> */}
           <p className="mt-3 text-5xl font-bold tracking-tight">
           Our Mission
           </p>
