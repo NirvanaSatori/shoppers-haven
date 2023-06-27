@@ -228,7 +228,7 @@ function SearchPage() {
                 :
                 <input
                   type="text" id="error" className="bg-teal-50 pl-10 border border-teal-500 text-teal-900 placeholder-teal-700 text-sm rounded-lg focus:ring-teal-500 
-                  focus:border-teal-500 block w-full p-2.5 dark:text-teal-500 dark:placeholder-teal-500 dark:border-teal-500" placeholder="Cannot be empty"
+                  focus:border-teal-500 block w-full p-2.5 dark:text-teal-500 dark:placeholder-teal-500 dark:border-teal-500" placeholder="Enter search term eg. 'iphone', 'samsung', 'jbl'"
                    onChange={(e) => {setSearchQuery(e.target.value);}}
                 />
               }
