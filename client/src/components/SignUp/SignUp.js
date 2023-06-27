@@ -141,7 +141,7 @@ export default function SignUp() {
                     </div>
                     <div className="space-y-1">
                       <label htmlFor="profile" className="block text-sm font-medium text-gray-700">
-                        Choose your Profile Picture
+                        Choose your Profile Picture(optional)
                       </label>
                       <div className="mt-1 flex flex-row-reverse justify-between items-center">
                         <input
