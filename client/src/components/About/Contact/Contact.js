@@ -214,12 +214,12 @@ console.log(formData)
                     </dt>
                     <dd className="flex text-base text-teal-50">
                       <EnvelopeIcon className="h-6 w-6 flex-shrink-0 text-teal-200" aria-hidden="true" />
-                      <span className="ml-3">shoppershaven@gmail.com</span>
+                      <span className="ml-3">morris.waithaka42@gmail.com</span>
                     </dd>
                   </dl>
                   <ul role="list" className="mt-8 flex space-x-12">
                     <li>
-                      <a className="text-teal-200 hover:text-teal-100" href="https://www.linkedin.com/login">
+                      <a className="text-teal-200 hover:text-teal-100" href="https://www.linkedin.com/in/morris-waithaka-249b59170/">
                         <span className="sr-only">LinkedIn</span>
                         <svg className="h-7 w-7" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
                           <path
@@ -231,7 +231,7 @@ console.log(formData)
                       </a>
                     </li>
                     <li>
-                      <a className="text-teal-200 hover:text-teal-100" href="https://github.com/login">
+                      <a className="text-teal-200 hover:text-teal-100" href="https://github.com/NirvanaSatori/shoppers-haven">
                         <span className="sr-only">GitHub</span>
                         <svg className="h-7 w-7" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
                           <path
@@ -294,6 +294,7 @@ console.log(formData)
                           name="email"
                           type="email"
                           autoComplete="email"
+                          placeholder='morris.waithaka42@gmail.com'
                           className="block w-full rounded-md border-warm-gray-300 py-2 px-4 text-warm-gray-900 shadow-sm focus:border-teal-500 focus:ring-teal-500"
                           onChange={handleChange}
                          
