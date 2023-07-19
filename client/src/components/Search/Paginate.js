@@ -8,7 +8,7 @@ function Paginate({ productsPerPage, totalProducts, paginate }) {
     }
   return (
     <nav>
-      <ul className='pagination flex flex-wrap gap-2 ml-5 pl-5 mt-2'>
+      <ul className='pagination  flex flex-wrap gap-2 ml-5 pl-5 mt-2'>
         {pageNumbers.map(pageNumber => (
             <li className='bg-teal-500 page-item page-numbers' key={pageNumber}>
                 <button onClick={() => paginate(pageNumber)} className='page-link'>{pageNumber}</button>
