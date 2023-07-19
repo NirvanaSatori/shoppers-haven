@@ -479,7 +479,7 @@ function SearchPage() {
                 <section aria-labelledby="cart-heading">
                        { transformProducts().slice(indexOfFirstShipment , indexOfLastShipment).map((product) => (  
                         <ul className=" drop-shadow-2xl divide-y divide-gray-200 border-t border-b border-gray-200 p-1">                        
-                              <li key={product.id} className="flex py-6 product-list">
+                              <li key={product.id} className="drop-shadow-2xl flex py-6 product-list">
                                 <div className="object-contain flex-shrink-0">
                                     <img
                                     src={product.image_url}
