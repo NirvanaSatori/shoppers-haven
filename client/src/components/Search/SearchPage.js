@@ -484,7 +484,7 @@ function SearchPage() {
                                     <img
                                     src={product.image_url}
                                     alt={product.imageAlt}
-                                    className="h-48 w-48 bg-cover rounded-md object-contain object-center sm:h-48 sm:w-48"
+                                    className="h-48 w-48 bg-cover rounded-md object-contain object-center sm:h-54 sm:w-54"
                                     />
                                 </div>
                                 <div className="px-10 ml-4 flex flex-1 flex-col sm:ml-6">
