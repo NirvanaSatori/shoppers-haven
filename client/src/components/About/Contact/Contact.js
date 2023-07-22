@@ -41,10 +41,8 @@ export default function Contact() {
       subject:"",
       message:"",
     })
-
-
   }
-// console.log(formData)
+
   return (
     <div className="bg-white mb-5">
       <main className="overflow-hidden">
