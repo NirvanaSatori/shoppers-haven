@@ -336,7 +336,7 @@ console.log(formData)
                           className="block w-full rounded-md border-warm-gray-300 py-2 px-4 text-warm-gray-900 shadow-sm focus:border-teal-500 focus:ring-teal-500"
                           onChange={handleChange}
                           
-                          value={formData.message}
+                          value={formData.subject}
                         />
                       </div>
                     </div>
