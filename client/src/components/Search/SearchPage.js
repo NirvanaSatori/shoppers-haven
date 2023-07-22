@@ -478,13 +478,13 @@ function SearchPage() {
             <div className="drop-shadow-lg mt-12 w-full">        
                 <section aria-labelledby="cart-heading">
                        { transformProducts().slice(indexOfFirstShipment , indexOfLastShipment).map((product) => (  
-                        <ul className=" drop-shadow-lg divide-y divide-gray-200 border-t border-b border-gray-200 p-1">                        
+                        <ul className="divide-y divide-gray-200 border-t border-b border-gray-200 p-1">                        
                               <li key={product.id} className="drop-shadow-2xl flex py-6 product-list">
-                                <div className="object-contain flex-shrink-0">
+                                <div className="drop-shadow-lg object-contain flex-shrink-0">
                                     <img
                                     src={product.image_url}
                                     alt={product.imageAlt}
-                                    className="h-48 w-48 bg-cover rounded-md object-contain object-center sm:h-54 sm:w-54"
+                                    className="drop-shadow-lg h-48 w-48 bg-cover rounded-md object-contain object-center sm:h-54 sm:w-54"
                                     />
                                 </div>
                                 <div className="px-10 ml-4 flex flex-1 flex-col sm:ml-6">
