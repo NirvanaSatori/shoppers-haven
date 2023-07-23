@@ -3,7 +3,7 @@ include SendGrid
 class FeedbackMailer < ApplicationMailer
  def send_feedback_email(email)
 
-   from = SendGrid::Email.new(email: 'Morris Waithaka')
+   from = SendGrid::Email.new(name: 'Morris Waithaka', email: 'morris.waithaka42@gmail.com')
    
    to = SendGrid::Email.new(email: email)
 
