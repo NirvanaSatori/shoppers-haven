@@ -23,7 +23,7 @@ export default function SignUp() {
     e.preventDefault()
     signup(formData)
   }
-
+//upload profile picture when signing up
   const addImage = (e) => {
       const reader = new FileReader();
       const file = e.target.files[0]
