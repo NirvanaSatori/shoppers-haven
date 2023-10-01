@@ -8,7 +8,7 @@
  * Paul Ngugi
 
 # Introduction 
-Shoppers haven is a platfrom that allows users to view products from various ecommerce websites such as Ebay,Amazon,Alibaba and Shopify.This allows the user to only review the products from the various sites,compare the marginal benefit and cost benefit then choose from the site that best suites the user.This is done through a link redirecting a user to the actual ecommerce site for purchase of that particular product.
+Shoppers haven is a platfrom that allows users to view products from various ecommerce websites such as Ebay,Amazon,Alibaba and Shopify.This allows the user to only review the products from the various sites,compare the marginal benefit and cost benefit then choose from the site that best suites the user.This is done through a link redirecting a user to the actual ecommerce site for purchase of that particular product. It is built using ReactJS and TailwindCSS in the front-end, Ruby on Rails and PostgreSQL for the back-end.
 ## Screenshots 📸
 # A view of the landing page.
 ![image](https://user-images.githubusercontent.com/117803357/235507797-1c7999dd-1465-4aff-81da-5414abac2a36.png)
